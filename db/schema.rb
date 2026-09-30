@@ -15,6 +15,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_29_175231) do
   enable_extension "pg_catalog.plpgsql"
 
   create_table "api_tokens", force: :cascade do |t|
+    t.string "access", default: "write", null: false
     t.datetime "created_at", null: false
     t.string "name", null: false
     t.string "token", null: false
