@@ -1276,6 +1276,11 @@ h1, h2, h3 {
   width: auto;
 }
 
+:root[data-theme="dark"] .nav-logo,
+:root[data-theme="dark"] .login-logo {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.55)) drop-shadow(0 0 4px rgba(255, 255, 255, 0.2));
+}
+
 .nav-left {
   display: flex;
   align-items: center;
