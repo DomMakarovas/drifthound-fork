@@ -32,6 +32,7 @@ Live demo site: https://demo.drifthound.io
 - **Web Dashboard**: View all projects and their drift status at a glance
 - **Role-Based Plan Visibility**: Optionally restrict raw plan output to editors or admins with `PLAN_OUTPUT_MIN_ROLE` (see the [Configuration Guide](docs/configuration.md#plan_output_min_role))
 - **Charts Dashboard**: Visual analytics with interactive charts for drift monitoring
+- **Dark Mode**: Switch between light and dark themes from the top nav; follows your OS setting until you choose
 - **Slack Notifications**: Real-time alerts when drift is detected or resolved
 
 ## Requirements
